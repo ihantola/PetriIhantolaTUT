@@ -1,0 +1,60 @@
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+.header {
+  text-align: center;
+  min-height: 250px;
+  background: url(../images/tree-bg-full.webp) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow:hidden;
+  background-color: black;
+} 
+.header h1 {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    color: white;
+    padding-top: 125px;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 3rem;
+  margin-top: 3rem;
+  padding-bottom: 1rem;
+  background-color: black;
+}
+
+.footer, .footer a:link, .footer a:visited, .footer a:hover, .footer:active{
+  color:grey;
+}
+
+.container {
+  margin-top: 3rem;
+}
+
+.twitter-timeline-rendered { 
+      min-width: 90% !important; 
+    }
+
+@media (min-height: 310px) {.header {min-height: 310px} .header h1 {padding-top:155px;}}
+@media (min-height: 470px) {.header {min-height: 470px} .header h1 {padding-top:235px;}}
+@media (min-height: 790px) {.header {min-height: 790px} .header h1 {padding-top:375px;}}
+@media (min-height: 1000px) {.header {min-height: 1000px} .header h1 {padding-top:500px;}}
+@media (min-height: 1100px) {.header {min-height: 1100px} .header h1 {padding-top:550px;}}
+@media (min-height: 1200px) {.header {min-height: 1200px} .header h1 {padding-top:600px;}}
+@media (min-height: 1300px) {.header {min-height: 1300px} .header h1 {padding-top:650px;}}
+@media (min-height: 1400px) {.header {min-height: 1400px} .header h1 {padding-top:700px;}}
+@media (min-height: 1500px) {.header {min-height: 1500px} .header h1 {padding-top:750px;}}
+@media (min-height: 2000px) {.header {min-height: 2000px} .header h1 {padding-top:1000px;}}

@@ -1,0 +1,34 @@
+ 
+.header {
+  text-align: center;
+max-width: 100%; 
+min-height:500px;
+  padding-top: 3rem;
+  background: url(../images/beach.png);
+  background-repeat: no-repeat;
+  background-size: cover cover;
+  -webkit-background-size: cover cover;
+  -moz-background-size: cover cover;
+  -o-background-size: cover cover;
+}
+
+
+
+
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
