@@ -11,7 +11,7 @@ html {
 .header {
   text-align: center;
   min-height: 250px;
-  background: url(../images/tree-bg-full.webp) no-repeat center center fixed;
+  background: url(../images/tree-bg.webp) no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
