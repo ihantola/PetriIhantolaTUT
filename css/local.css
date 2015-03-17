@@ -36,8 +36,11 @@ html {
   background-color: black;
 }
 
-.footer, .footer a:link, .footer a:visited, .footer a:hover, .footer:active{
+.footer a, .footer a:link, .footer a:visited, .footer a:hover, .footer:active{
   color:grey;
+}
+.footer i {
+  margin: 0px 20px;
 }
 
 .container {
