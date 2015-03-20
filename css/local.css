@@ -7,7 +7,10 @@ html {
   box-sizing: inherit;
 }
 
-.circular {
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 150px;
   height: 150px;
   border-radius: 75px;
@@ -62,7 +65,7 @@ html {
     }
 
 @media (min-height: 310px) {.header {min-height: 310px} .header h1 {padding-top:110px;}}
-@media (min-height: 470px) {.header {min-height: 470px} .header h1 {padding-top:220px;}}
+@media (min-height: 470px) {.header {min-height: 470px} .header h1 {padding-top:240px;}}
 @media (min-height: 790px) {.header {min-height: 790px} .header h1 {padding-top:375px;}}
 @media (min-height: 1000px) {.header {min-height: 1000px} .header h1 {padding-top:500px;}}
 @media (min-height: 1100px) {.header {min-height: 1100px} .header h1 {padding-top:550px;}}
